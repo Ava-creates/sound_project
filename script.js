@@ -20,3 +20,23 @@ function update(e){
 
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
+
+
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 25000);
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 35000);
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 45000);
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 55000);
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 65000);
+setTimeout(function(){
+  window.scrollBy(0, 1000);
+}, 75000);
