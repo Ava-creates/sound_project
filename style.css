@@ -26,13 +26,13 @@ div{
     width: 800px;
     left:24%;
     top:10vh;
-    
+
 }
 
 #n1{
     animation: glitch 1s linear infinite;
   }
-  
+
   @keyframes glitch{
     2%,64%{
       transform: translate(2px,0) skew(0deg);
@@ -41,23 +41,23 @@ div{
       transform: translate(-2px,0) skew(0deg);
     }
     62%{
-      transform: translate(0,0) skew(5deg); 
+      transform: translate(0,0) skew(5deg);
     }
   }
-  
+
   #n1:before,
   #n1:after{
     content: attr(title);
     position: absolute;
     left: 0;
   }
-  
+
   #n1:before{
     animation: glitchTop 1s linear infinite;
     clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
   }
-  
+
   @keyframes glitchTop{
     2%,64%{
       transform: translate(2px,-2px);
@@ -66,16 +66,16 @@ div{
       transform: translate(-2px,2px);
     }
     62%{
-      transform: translate(13px,-1px) skew(-13deg); 
+      transform: translate(13px,-1px) skew(-13deg);
     }
   }
-  
+
   #n1:after{
     animation: glitchBotom 1.5s linear infinite;
     clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
   }
-  
+
   @keyframes glitchBotom{
     2%,64%{
       transform: translate(-2px,0);
@@ -84,12 +84,12 @@ div{
       transform: translate(-2px,0);
     }
     62%{
-      transform: translate(-22px,5px) skew(21deg); 
+      transform: translate(-22px,5px) skew(21deg);
     }
   }
 
 
-  #n2
+  #n2, #n3
   {
     display: block;
     position: relative;
@@ -97,7 +97,6 @@ div{
     width: 800px;
     left:24%;
     top:10vh;
-    
   }
 
 
@@ -108,11 +107,11 @@ div{
       height: 100vh;
 
   }
- 
+
   .m{
     margin: 175px auto;
   }
-  
+
   #drop {
     position: relative;
       width: 20px;
@@ -136,7 +135,7 @@ div{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
-  
+
   #drop:before {
     content: "";
     position: absolute;
@@ -147,7 +146,7 @@ div{
       border-bottom: 30px solid rgba(255,0,0,1);
     top: -22px;
   }
-  
+
   #wave {
     position: relative;
     opacity: 0;
@@ -171,7 +170,7 @@ div{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
-  
+
   #wave:after {
     content: "";
     position: absolute;
@@ -194,7 +193,7 @@ div{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
   }
-  
+
   @keyframes ripple {
       from {
         opacity: 1;
@@ -207,7 +206,7 @@ div{
         opacity: 0;
       }
   }
-  
+
   @keyframes ripple-2 {
       0% {
         opacity: 1;
@@ -223,9 +222,32 @@ div{
       left: 200px;
     }
   }
-  
+
   @keyframes drip {
       to {
         top: 190px;
       }
+  }
+=======
+
+  }
+
+  :root {
+    cursor: none;
+    --cursorX: 50vw;
+    --cursorY: 50vh;
+  }
+  :root:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 10vmax at var(--cursorX) var(--cursorY),
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,.5) 80%,
+      rgba(0,0,0,.95) 100%
+    )
   }
