@@ -54,7 +54,7 @@ function myFunction() {
      
       if(1<c && c<11)
       {
-        var element = document.getElementById("crow");
+        var element = document.getElementById("start");
         element.scrollIntoView();
       }
 
@@ -81,7 +81,7 @@ function myFunction() {
         element.scrollIntoView();
       }
 
-      else if( 90<=c && c<120)
+      else if( 90<=c && c<110)
 
       {
         console.log("fifth part");
@@ -90,19 +90,15 @@ function myFunction() {
         
       }
 
-      else if(120<c && c<=150)
+      else if(110<c && c<=140)
       {
         var element = document.getElementById("campus");
         element.scrollIntoView();
       }
 
-      else if(120<c && c<=150)
-      {
-        var element = document.getElementById("campus");
-        element.scrollIntoView();
-      }
+      
 
-      else if(150<=c && c<=audio.endTime)
+      else if(140<=c && c<=audio.endTime)
       {
         var element = document.getElementById("n3");
         element.scrollIntoView();
@@ -112,6 +108,12 @@ function myFunction() {
           audio.pause();
 
         }
+      }
+
+      else
+      {
+        var element = document.getElementById("n3");
+        element.scrollIntoView();
       }
   }
 function update(e){
