@@ -1,8 +1,14 @@
 @font-face {
   font-family: myFirstFont;
   src: url(Captain\ Redemption.ttf);
+  
 }
 
+
+@font-face {
+  font-family: ladila;
+  src: url(Them!.ttf)
+}
 body
 {
    font-family: myFirstFont;
@@ -34,6 +40,8 @@ div{
 
 #n3 {
   padding-top: 35vh;
+  font-size: 50px;
+  font-family: ladila;
 }
 
 #start
