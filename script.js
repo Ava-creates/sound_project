@@ -1,15 +1,119 @@
+var audio = document.getElementById("a");
 document.getElementById("crow").onclick = function() {f1()}  ;
+
 
 function f1()
 {
-    console.log("sdg");
+    
+    audio.play();
+    /*
     window.scrollTo({
         top:(window.innerHeight)*1 ,
 
         behavior: 'smooth'
       });
+      
+
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 30000);
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 75000);
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 80000);
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 55000);
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 65000);
+      setTimeout(function(){
+        window.scrollBy(0, 1000);
+      }, 75000);
+
+      */
+
+      audio.ontimeupdate = function() {myFunction()};
+
+
+      
 }
 
+
+//var c = audio.currentTime;
+//audio.timeupdate = function() {myFunction()};
+audio.addEventListener("timeupdate",myFunction);
+
+
+function myFunction() {
+
+      var c = audio.currentTime;
+  
+     
+      if(1<c && c<11)
+      {
+        var element = document.getElementById("crow");
+        element.scrollIntoView();
+      }
+
+      else if(11<c && c<49)
+      {
+        console.log("second part");
+        
+        var element = document.getElementById("n1");
+        element.scrollIntoView();
+        
+      }
+
+      else if(50<c && c<80)
+      {
+        console.log("third part");
+        var element = document.getElementById("n2");
+        element.scrollIntoView();
+        
+      }
+
+      else if(80<=c && c<95){
+        console.log("4th part");
+        var element = document.getElementById("d1");
+        element.scrollIntoView();
+      }
+
+      else if( 90<=c && c<120)
+
+      {
+        console.log("fifth part");
+        var element = document.getElementById("basement");
+        element.scrollIntoView();
+        
+      }
+
+      else if(120<c && c<=150)
+      {
+        var element = document.getElementById("campus");
+        element.scrollIntoView();
+      }
+
+      else if(120<c && c<=150)
+      {
+        var element = document.getElementById("campus");
+        element.scrollIntoView();
+      }
+
+      else if(150<=c && c<=audio.endTime)
+      {
+        var element = document.getElementById("n3");
+        element.scrollIntoView();
+
+        if(c==audio.endTime)
+        {
+          audio.pause();
+
+        }
+      }
+  }
 function update(e){
   var x = e.clientX || e.touches[0].clientX
   var y = e.clientY || e.touches[0].clientY
@@ -21,10 +125,10 @@ function update(e){
 document.addEventListener('mousemove',update)
 document.addEventListener('touchmove',update)
 
-
+/*
 setTimeout(function(){
   window.scrollBy(0, 1000);
-}, 25000);
+}, 10000);
 setTimeout(function(){
   window.scrollBy(0, 1000);
 }, 35000);
@@ -40,3 +144,5 @@ setTimeout(function(){
 setTimeout(function(){
   window.scrollBy(0, 1000);
 }, 75000);
+*/
+
