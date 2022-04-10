@@ -41,24 +41,28 @@ function f1()
       
 }
 
-
+document.documentElement.onclick = torch;
 //var c = audio.currentTime;
 //audio.timeupdate = function() {myFunction()};
 audio.addEventListener("timeupdate",myFunction);
 
+function torch() {
+  var v=document.documentElement;
+  document.documentElement.style.background = "radial-gradient(circle 20vmax at var(--cursorX) var(--cursorY),rgba(0,0,0,0) 0%,gba(0,0,0,.5) 80%,rgba(0,0,0,.95) 100%)";
+  }
 
 function myFunction() {
 
       var c = audio.currentTime;
   
      
-      if(1<c && c<11)
+      if(0<=c && c<11)
       {
         var element = document.getElementById("start");
         element.scrollIntoView();
       }
 
-      else if(11<c && c<49)
+      else if(11<=c && c<=50)
       {
         console.log("second part");
         
@@ -81,7 +85,7 @@ function myFunction() {
         element.scrollIntoView();
       }
 
-      else if( 90<=c && c<110)
+      else if( 95<=c && c<=125)
 
       {
         console.log("fifth part");
@@ -90,7 +94,7 @@ function myFunction() {
         
       }
 
-      else if(110<c && c<=140)
+      else if(125<c && c<=150)
       {
         var element = document.getElementById("campus");
         element.scrollIntoView();
@@ -98,7 +102,7 @@ function myFunction() {
 
       
 
-      else if(140<=c && c<=audio.endTime)
+      else if(151<=c && c<=audio.endTime)
       {
         var element = document.getElementById("n3");
         element.scrollIntoView();
