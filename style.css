@@ -1,7 +1,7 @@
 @font-face {
   font-family: myFirstFont;
   src: url(Captain\ Redemption.ttf);
-  
+
 }
 
 
@@ -28,10 +28,10 @@ div{
     justify-content: center;
 }
 
-#start, #n1, #n2, #d1, #basement, #campus, #n3 {
+#start, #n1, #n2, #d1, #basement, #campus, #n3, #campus2 {
   scroll-snap-align: center;
   scroll-snap-stop: always;
- 
+
 
 }
 #n1, #n2, #d1 {
@@ -46,7 +46,7 @@ div{
 
 #start
 {
-   
+
     font-size: 30px;
     color: white;
 }
@@ -149,7 +149,7 @@ div{
       height: 20px;
     top: -30px;
     margin: 0 auto;
-      background: #F00;
+      background: #ADD8E6;
       -moz-border-radius: 20px;
       -webkit-border-radius: 20px;
       border-radius: 20px;
@@ -174,7 +174,7 @@ div{
       height: 0;
       border-left: 10px solid transparent;
       border-right: 10px solid transparent;
-      border-bottom: 30px solid rgba(255,0,0,1);
+      border-bottom: 30px solid rgb(173, 216, 230);
     top: -22px;
   }
 
@@ -184,7 +184,7 @@ div{
     top: 0;
       width: 2px;
       height: 1px;
-    border: #F00 7px solid;
+    border: #ADD8E6 7px solid;
       -moz-border-radius: 300px / 150px;
       -webkit-border-radius: 300px / 150px;
       border-radius: 300px / 150px;
@@ -210,7 +210,7 @@ div{
     left: -5px;
       width: 2px;
       height: 1px;
-    border: #F00 5px solid;
+    border: #ADD8E6 5px solid;
       -moz-border-radius: 300px / 150px;
       -webkit-border-radius: 300px / 150px;
       border-radius: 300px / 150px;
@@ -260,12 +260,13 @@ div{
       }
   }
 
-#basement, #campus {
+#basement, #campus, #campus2 {
     margin-top: 80px;
 }
 
 #campus-img,
-#basement-img {
+#basement-img,
+#campus2-img {
   width: 100vw;
   height: 100vh;
 }

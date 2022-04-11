@@ -4,7 +4,7 @@ document.getElementById("crow").onclick = function() {f1()}  ;
 
 function f1()
 {
-    
+
     audio.play();
     /*
     window.scrollTo({
@@ -12,7 +12,7 @@ function f1()
 
         behavior: 'smooth'
       });
-      
+
 
       setTimeout(function(){
         window.scrollBy(0, 1000);
@@ -38,7 +38,7 @@ function f1()
       audio.ontimeupdate = function() {myFunction()};
 
 
-      
+
 }
 
 document.documentElement.onclick = torch;
@@ -54,29 +54,29 @@ function torch() {
 function myFunction() {
 
       var c = audio.currentTime;
-  
-     
+
+
       if(0<=c && c<11)
       {
         var element = document.getElementById("start");
         element.scrollIntoView();
       }
 
-      else if(11<=c && c<=50)
+      else if(11<=c && c<=47)
       {
         console.log("second part");
-        
+
         var element = document.getElementById("n1");
         element.scrollIntoView();
-        
+
       }
 
-      else if(50<c && c<80)
+      else if(47<c && c<80)
       {
         console.log("third part");
         var element = document.getElementById("n2");
         element.scrollIntoView();
-        
+
       }
 
       else if(80<=c && c<95){
@@ -85,24 +85,28 @@ function myFunction() {
         element.scrollIntoView();
       }
 
-      else if( 95<=c && c<=125)
+      else if(95<=c && c<=139)
 
       {
         console.log("fifth part");
         var element = document.getElementById("basement");
         element.scrollIntoView();
-        
+
       }
 
-      else if(125<c && c<=150)
+      else if(139<c && c<=175)
       {
         var element = document.getElementById("campus");
         element.scrollIntoView();
       }
 
-      
+      else if(175<c && c<=189)
+      {
+        var element = document.getElementById("campus2");
+        element.scrollIntoView();
+      }
 
-      else if(151<=c && c<=audio.endTime)
+      else if(189<=c && c<=audio.endTime)
       {
         var element = document.getElementById("n3");
         element.scrollIntoView();
@@ -151,4 +155,3 @@ setTimeout(function(){
   window.scrollBy(0, 1000);
 }, 75000);
 */
-
