@@ -1,3 +1,17 @@
-# sound_project
+**Project Name: Do you hear the birds chirping?**
+<br>
+<br>
+**Project Description:** _What is the project, what is the overall concept and theme, and what kind of experience you were striving to create._
+From the get-go, our team wanted to tell a horror story through sound. Because the medium for storying telling was limited to sound and several website interactivities, horror seemed like the genre that would bring the most impact to our audiences. 
+The concept of our story is based on the birds at NYU Abu Dhabi’s campus. At the center of the campus is an order of palm trees where the chirping of birds is always heard throughout the day. It is so vibrant that there is a conspiracy on campus that there are speakers in the trees to fake the chirping. We wanted to work off this conspiracy theory. Instead of the chirping of birds, we thought it might be scary to pitch the constant chirping as a sleeping monster underneath the campus. 
+Overall, we wanted the audience to feel a constant sense of eerieness. When the story begins, there is a calming old man introducing the campus. The audience later learns that he is the father of the monsters, and we expect an unsettling atmosphere to arise from that transition. 
+<br>
+<br>
+**Process:** _How did you go about implementing the concept._
+Our team created a clear division of roles from the start. Nathan first drafted the script, including the possible sounds that will be implemented at each stage of the story. Alex was fully in charge of the sounds recording and production, with Nathan assisting as the voice of the narrator and Avani helping with certain recordings. The design of the website was mainly attributed to Avani and Aruzhan. 
+Soundscape-wise, Alex started by thinking about the ambiance for each section of the story. These sounds might include chirping, water dripping, basement echos, et. Cetera. Then he moved on to adding specific noises for each action or item, such as the meow, music, footsteps, and monsters. Once the final timeline for the story and set, he recorded the dialogue and Nathan sent in his narration. Finally, he recorded some other miscellaneous sounds that could not be found online. 
+In terms of technique, the howl of the monster was created by stacking three or four monster sound effects together. Audio panning was done to sound and dialogue from all directions, and reverb was applied to make it more immersive in certain environments. 
+For the website, Avani and Aruzhan thought it would match the soundscape the best if it matched the creepy atmosphere of the story.We decided to keep the website minimal with texts of the narration that sets the story and added glitch effect to it. Moreover, we added a water drop to coordinate with the water dripping sound. Another important the feature of the website is the flashlight effect. The entire website is clouded with darkness and the user has to look around with their cursor to explore the space where the story is happening. Apart from that we synced different sectionsof the website to the audio that starts to play when the user clicks on the bird on the first page.
 
- https://ava-creates.github.io/sound_project/
+**Reflection/Evaluation:** _This should bookend the initial concept and talk about whether your expectations and goals were met in the process of building the final working version._
+Reflecting on the end product, our team is very happy with how it turned out. The soundscape was very well done, the storytelling fluid but with eerie cadence. The website also complements the story well, with visually stimulating interactive elements that accent the story. 
