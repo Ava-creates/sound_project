@@ -10,15 +10,11 @@ function f1()
 }
 
 
-document.documentElement.onclick = torch;
+
 
 
 audio.addEventListener("timeupdate",myFunction);
 
-function torch() {
-  var v=document.documentElement;
-  document.documentElement.style.background = "radial-gradient(circle 20vmax at var(--cursorX) var(--cursorY),rgba(0,0,0,0) 0%,gba(0,0,0,.5) 80%,rgba(0,0,0,.95) 100%)";
-  }
 
 //checking the time of the audio and scrolling the page automatically based on time
 function myFunction() {
