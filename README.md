@@ -1,4 +1,4 @@
-# Project Name: Do you hear the birds chirping? 
+**Project Name: Do you hear the birds chirping?**
 <br>
 <br>
 **Project Description:** _What is the project, what is the overall concept and theme, and what kind of experience you were striving to create._
