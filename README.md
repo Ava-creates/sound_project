@@ -1,8 +1,11 @@
 **Project Name: Chirping Birds**
+<br>
+<br>
 **Project Description:** _What is the project, what is the overall concept and theme, and what kind of experience you were striving to create._
 From the get-go, our team wanted to tell a horror story through sound. Because the medium for storying telling was limited to sound and several website interactivities, horror seemed like the genre that would bring the most impact to our audiences. 
 The concept of our story is based on the birds at NYU Abu Dhabi’s campus. At the center of the campus is an order of palm trees where the chirping of birds is always heard throughout the day. It is so vibrant that there is a conspiracy on campus that there are speakers in the trees to fake the chirping. We wanted to work off this conspiracy theory. Instead of the chirping of birds, we thought it might be scary to pitch the constant chirping as a sleeping monster underneath the campus. 
 Overall, we wanted the audience to feel a constant sense of eerieness. When the story begins, there is a calming old man introducing the campus. The audience later learns that he is the father of the monsters, and we expect an unsettling atmosphere to arise from that transition. 
+<br>
 <br>
 **Process:** _How did you go about implementing the concept._
 Our team created a clear division of roles from the start. Nathan first drafted the script, including the possible sounds that will be implemented at each stage of the story. Alex was fully in charge of the sounds recording and production, with Nathan assisting as the voice of the narrator and Avani helping with certain recordings. The design of the website was mainly attributed to Avani and Aruzhan. 
